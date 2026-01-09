@@ -2,34 +2,7 @@
 
 Project Reference: https://roadmap.sh/projects/task-tracker
 
-A simple **Command Line Interface (CLI)** task tracker built with **Python**. This project helps you practice Python basics such as file handling, JSON, command-line arguments, and working with dates.
-
-You can:
-
-* Add tasks
-* List tasks
-* Update tasks
-* Mark tasks as in-progress or done
-* Delete tasks
-
----
-
-## Project Structure
-
-```
-task-tracker-cli/
-├── task-cli.py   # Main CLI application (run with: python task_cli.py)
-├── .gitignore    # Tells Git to ignore your local tasks.json
-├── LICENSE       # MIT License details
-└── README.md     # Project documentation and usage guide
-```
-
----
-
-## Requirements
-
-* Python **3.8+**
-* No external libraries required (uses only Python standard library)
+A simple **Command Line Interface (CLI)** task tracker built with **Python**. 
 
 ---
 
@@ -112,7 +85,3 @@ python task-cli.py mark-done 1
 ```bash
 python task-cli.py delete 1
 ```
-
----
-
-
