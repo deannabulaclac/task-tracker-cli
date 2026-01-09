@@ -1,4 +1,4 @@
-# 📝 Task Tracker CLI
+# Task Tracker CLI
 
 A simple **Command Line Interface (CLI)** task tracker built with **Python**. This project helps you practice Python basics such as file handling, JSON, command-line arguments, and working with dates.
 
@@ -12,7 +12,7 @@ You can:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 task-tracker-cli/
@@ -24,14 +24,14 @@ task-tracker-cli/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Python **3.8+**
 * No external libraries required (uses only Python standard library)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 
@@ -50,7 +50,7 @@ If no command is provided, the CLI will show usage instructions.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 * Tasks are stored in a `tasks.json` file
 * Each task contains:
@@ -65,21 +65,21 @@ The JSON file is automatically created when you add your first task.
 
 ---
 
-## 📌 Commands & Usage
+## Commands & Usage
 
-### ➕ Add a Task
+### Add a Task
 
 ```bash
 python task_cli.py add "Buy groceries"
 ```
 
-### 📋 List All Tasks
+### List All Tasks
 
 ```bash
 python task_cli.py list
 ```
 
-### 🔍 List Tasks by Status
+### List Tasks by Status
 
 ```bash
 python task_cli.py list todo
@@ -87,25 +87,25 @@ python task_cli.py list in-progress
 python task_cli.py list done
 ```
 
-### ✏️ Update a Task Description
+### Update a Task Description
 
 ```bash
 python task_cli.py update 1 "Buy groceries and cook dinner"
 ```
 
-### 🔄 Mark Task as In Progress
+### Mark Task as In Progress
 
 ```bash
 python task_cli.py mark-in-progress 1
 ```
 
-### ✅ Mark Task as Done
+### Mark Task as Done
 
 ```bash
 python task_cli.py mark-done 1
 ```
 
-### 🗑️ Delete a Task
+### Delete a Task
 
 ```bash
 python task_cli.py delete 1
@@ -113,7 +113,7 @@ python task_cli.py delete 1
 
 ---
 
-## ❗ Error Handling
+## Error Handling
 
 * Handles missing or corrupted `tasks.json`
 * Validates task IDs
@@ -121,7 +121,7 @@ python task_cli.py delete 1
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 This project is great for beginners to learn:
 
@@ -133,7 +133,7 @@ This project is great for beginners to learn:
 
 ---
 
-## 🌱 Future Improvements (Optional)
+## Future Improvements (Optional)
 
 * Add priority levels
 * Add due dates
@@ -142,10 +142,10 @@ This project is great for beginners to learn:
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use for learning purposes.
 
 ---
 
-✨ *Built as a beginner-friendly Python project*
+*Built as a beginner-friendly Python project*
