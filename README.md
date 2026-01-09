@@ -45,7 +45,7 @@ task-tracker-cli/
 2. **Run the CLI**
 
    ```bash
-   python task_cli.py
+   python task-cli.py
    ```
 
 If no command is provided, the CLI will show usage instructions.
@@ -72,82 +72,47 @@ The JSON file is automatically created when you add your first task.
 ### Add a Task
 
 ```bash
-python task_cli.py add "Buy groceries"
+python task-cli.py add "Buy groceries"
 ```
 
 ### List All Tasks
 
 ```bash
-python task_cli.py list
+python task-cli.py list
 ```
 
 ### List Tasks by Status
 
 ```bash
-python task_cli.py list todo
-python task_cli.py list in-progress
-python task_cli.py list done
+python task-cli.py list todo
+python task-cli.py list in-progress
+python task-cli.py list done
 ```
 
 ### Update a Task Description
 
 ```bash
-python task_cli.py update 1 "Buy groceries and cook dinner"
+python task-cli.py update 1 "Buy groceries and cook dinner"
 ```
 
 ### Mark Task as In Progress
 
 ```bash
-python task_cli.py mark-in-progress 1
+python task-cli.py mark-in-progress 1
 ```
 
 ### Mark Task as Done
 
 ```bash
-python task_cli.py mark-done 1
+python task-cli.py mark-done 1
 ```
 
 ### Delete a Task
 
 ```bash
-python task_cli.py delete 1
+python task-cli.py delete 1
 ```
 
 ---
 
-## Error Handling
 
-* Handles missing or corrupted `tasks.json`
-* Validates task IDs
-* Displays helpful error messages for incorrect usage
-
----
-
-## Learning Goals
-
-This project is great for beginners to learn:
-
-* Python functions
-* File I/O with JSON
-* Command-line arguments (`sys.argv`)
-* Basic error handling
-* Simple project structure
-
----
-
-## Future Improvements (Optional)
-
-* Add priority levels
-* Add due dates
-* Search tasks
-* Use `argparse` for better CLI UX
-
----
-
-## License
-
-MIT License © 2026 @deannabulaclac
-
----
-
-*Built as a beginner-friendly Python project*
