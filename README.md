@@ -144,7 +144,7 @@ This project is great for beginners to learn:
 
 ## License
 
-This project is open-source and free to use for learning purposes.
+MIT License © 2026 @deannabulaclac
 
 ---
 
