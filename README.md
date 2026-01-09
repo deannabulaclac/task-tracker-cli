@@ -1,6 +1,7 @@
 # Task Tracker CLI
 
 Project Reference: https://roadmap.sh/projects/task-tracker
+
 A simple **Command Line Interface (CLI)** task tracker built with **Python**. This project helps you practice Python basics such as file handling, JSON, command-line arguments, and working with dates.
 
 You can:
