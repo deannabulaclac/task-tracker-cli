@@ -12,13 +12,15 @@ You can:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 task-tracker-cli/
-├── task-cli.py   # Main CLI application (run with: python task-cli.py)
+├── task-cli.py   # Main CLI application (run with: python task_cli.py)
 ├── .gitignore    # Tells Git to ignore your local tasks.json
 ├── LICENSE       # MIT License details
 └── README.md     # Project documentation and usage guide
+```
 
 ---
 
@@ -147,4 +149,3 @@ This project is open-source and free to use for learning purposes.
 ---
 
 ✨ *Built as a beginner-friendly Python project*
-
