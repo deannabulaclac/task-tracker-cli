@@ -38,7 +38,7 @@ task-tracker-cli/
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/deannabulaclac/task-tracker-cli.git
    cd task-tracker
    ```
 
